@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="InternetBanking">
+<test name="Bankingapp">
+<parameter name="browser" value="chrome"></parameter>
+
+<classes>
+<class name="project.banking.testCases.TC1_LogIntoBankingpage">
+
+</class>
+</classes>
+
+</test>
+
+
+
+</suite>

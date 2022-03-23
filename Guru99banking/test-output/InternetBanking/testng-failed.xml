@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [InternetBanking]">
+  <test thread-count="5" name="Bankingapp(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="project.banking.testCases.TC1_LogIntoBankingpage">
+        <methods>
+          <include name="login"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- project.banking.testCases.TC1_LogIntoBankingpage -->
+    </classes>
+  </test> <!-- Bankingapp(failed) -->
+</suite> <!-- Failed suite [InternetBanking] -->
